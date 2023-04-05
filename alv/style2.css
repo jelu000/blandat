@@ -1,0 +1,120 @@
+body {
+    background: rgb(66, 39, 39);
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: rgb(53, 44, 90);
+    margin: -150px 0px 0px 0px;
+    height: 200px;
+    width: 100%;
+
+}
+
+h1 {
+    color: rgb(177, 156, 156);
+    display: block;
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+    font-size: 60px;
+}
+
+.config-bar {
+    background: rgb(36, 32, 50);
+    margin: 0px;
+    height: 60px;
+    width: 100%;
+}
+
+h2 {
+    color: rgb(177, 156, 156);
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+.booking-form {
+    width: 50%;
+    margin: 50px auto;
+    border: 0px solid;
+    background:  rgb(177, 156, 156);
+    padding: 20px;
+  }
+  
+.boka-titel {
+    color: rgb(36, 32, 50);
+}
+
+  .booking-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .booking-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-form input[type=text],
+  .booking-form input[type=email],
+  .booking-form input[type=tel],
+  .booking-form input[type=date],
+  
+  .booking-form select {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .booking-form input[type=submit] {
+    background-color: #ff6666;
+    color: #fff;
+    padding: 10px;
+    font-size: medium; 
+  }
+
+  table{
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+  }
+
+  tr{
+    margin: 20px;
+  }
+  
+  .th_tid {
+    width: 70px;
+    text-align: left;
+}
+.th_namn{
+    width: 140px;
+    text-align: left;
+}
+.th_tel{
+    width: 100px;
+    text-align: left;
+}
+
+.th_email{
+  width: 200px;
+  text-align: left;
+}
+
+.th_id{
+    width: 160px;
+    text-align: left;
+}
+
+.th_avboka{
+    width: 60px;
+    text-align: center;
+}
